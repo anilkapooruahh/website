@@ -1,0 +1,35 @@
+@font-face{
+    font-family: SourceCodePro;
+    src: url(./SourceCodePro-VariableFont_wght.ttf)
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: max-content;
+    justify-content: first baseline;
+    padding: 5rem;
+    font-size: large;
+    font-family: SourceCodePro;
+    padding-left: 20vw;
+    margin:0;
+}
+
+.header {
+    font-size: 10vh;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subheader {
+    font-size: 5vh;
+    color: #219ebc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+p {
+    max-width: 40vw;
+}
