@@ -62,11 +62,12 @@ const Projects = () => {
                 <Grid item xs={6}>
                     <Card className={styles.card}>
                         <CardContent className={styles.card}>
-                            <Typography variant="h5"></Typography>
+                            <Typography variant="h5">Spotify Network Mesh</Typography>
                             
                             <ul>
-                                <li>Used vanilla JS and CSS</li>
-                                <li>Uses local storage to implement persistence</li>
+                                <li>tells you how similar a group of people's music tastes are</li>
+                                <li>Used the MERN Stack</li>
+                                <li>Future progress will include user authentication</li>
                             </ul>
                         </CardContent>
 
